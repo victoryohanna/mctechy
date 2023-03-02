@@ -1,6 +1,7 @@
 .container-bootcamp {
   margin-top: 150px;
   margin-bottom: 100px;
+  background:linear-gradient(90deg, #fdfdfd 0%, #fdfdfd 80%);
 }
 
 .seperator {
