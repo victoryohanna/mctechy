@@ -1,7 +1,8 @@
 .container-bootcamp {
   margin-top: 150px;
   margin-bottom: 100px;
-  background:linear-gradient(90deg, #fdfdfd 0%, #fdfdfd 80%);
+  padding-bottom: 120px;
+  background:linear-gradient(2deg, #e0dcdc 0%, #ffffff 80%);
 }
 
 .seperator {
@@ -34,7 +35,7 @@
 .items-list {
   text-decoration: none;
   width: 42%;
-  background: #fdfbfb;
+  /* background: #fdfbfb; */
 }
 
 .items-list ul {
