@@ -1,5 +1,41 @@
-.options-container{
-    /* border: 1px solid black; */
-    margin-top:45px;
-    
+.options-container {
+  margin-top: 65px;
+  padding: 40px;
+  -webkit-box-shadow: 0px 0px 29px 25px #e4e1e1;
+  -moz-box-shadow: 0px 0px 29px 25px #e4e1e1;
+  box-shadow: 0px 0px 29px 25px #e4e1e1;
+}
+
+.btn-section {
+  display: flex;
+  justify-content: stretch;
+  height: 50px;
+  margin-top: 15px;
+}
+
+.btn-section button {
+  width: 80%;
+  font-size: 18px;
+  font-size: 400;
+  text-transform: uppercase;
+  background: linear-gradient(
+    90deg,
+    rgba(42, 7, 187, 1) 0%,
+    rgba(98, 49, 217, 1) 100%
+  );
+  color: #ffffff;
+  border: none;
+}
+
+.form-label {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.form-select,
+.form-control {
+  height: 30px;
+  font-size: 12px;
+  border-bottom: 1px solid #a7a4a4;
+  border-radius: 0;
 }
