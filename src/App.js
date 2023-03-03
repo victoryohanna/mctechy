@@ -4,6 +4,7 @@ import OptionList from "./components/Options";
 import BootcampSection from "./components/Bootcamp";
 import OurPrograms from "./components/Programs";
 import Transition from "./components/Transition";
+import Membership from "./components/Membership";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <BootcampSection/>
       <OurPrograms/>
       <Transition/>
+      <Membership/>
      </div>
     </div>
   );
