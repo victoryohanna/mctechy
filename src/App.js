@@ -5,6 +5,7 @@ import BootcampSection from "./components/Bootcamp";
 import OurPrograms from "./components/Programs";
 import Transition from "./components/Transition";
 import Membership from "./components/Membership";
+import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <OurPrograms/>
       <Transition/>
       <Membership/>
+      <Testimonials/>
      </div>
     </div>
   );
