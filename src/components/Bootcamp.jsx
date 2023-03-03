@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import "../styles/bootcamp.css";
 import image3 from "../assets/bootcamp1.jpg";
 
+import Seprator from "./elements/Seprator";
+
 const BootcampSection = () => {
   return (
     <div className=" container-bootcamp">
@@ -10,7 +12,8 @@ const BootcampSection = () => {
         <h1>Get Job-Ready in no time</h1>
       </div>
       <div className="container">
-        <div className="seperator"></div>
+        <Seprator/>
+        {/* <div className="seperator"></div> */}
         <div className="main-section">
           <div className="items-list">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">

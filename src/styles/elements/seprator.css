@@ -1,0 +1,11 @@
+.seperator {
+    width: 130px;
+    height: 10px;
+    background: linear-gradient(
+      90deg,
+      rgba(42, 7, 187, 1) 0%,
+      rgb(142, 107, 224) 100%
+    );
+  
+    margin-bottom: 50px;
+  }

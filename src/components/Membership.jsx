@@ -3,6 +3,7 @@ import "../styles/membership.css";
 
 import image5 from "../assets/015-idea.png";
 import image6 from "../assets/018-pointer.png";
+import Seprator from "./elements/Seprator";
 
 const Membership = () => {
   return (
@@ -11,7 +12,7 @@ const Membership = () => {
         <span>Get Started and Join the club</span>
         <h1>Become a Member of Dancify</h1>
       </div>
-      <div className="seperator"></div>
+      <Seprator/>
       <div className="member-main">
         <div className="section-text">
           <div className="p-text">
