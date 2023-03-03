@@ -1,0 +1,10 @@
+
+.programs-container{
+    margin-bottom: 120px;
+}
+.programs-tabs{
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    /* border: 1px solid black; */
+}
