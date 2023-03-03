@@ -13,7 +13,6 @@ const BootcampSection = () => {
       </div>
       <div className="container">
         <Seprator/>
-        {/* <div className="seperator"></div> */}
         <div className="main-section">
           <div className="items-list">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">

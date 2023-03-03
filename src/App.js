@@ -7,6 +7,7 @@ import Transition from "./components/Transition";
 import Membership from "./components/Membership";
 import Testimonials from "./components/Testimonials";
 import TechBootcamp from "./components/TechBootcamp";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Membership/>
       <Testimonials/>
       <TechBootcamp/>
+      <Footer/>
      </div>
     </div>
   );
