@@ -6,6 +6,7 @@ import OurPrograms from "./components/Programs";
 import Transition from "./components/Transition";
 import Membership from "./components/Membership";
 import Testimonials from "./components/Testimonials";
+import TechBootcamp from "./components/TechBootcamp";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Transition/>
       <Membership/>
       <Testimonials/>
+      <TechBootcamp/>
      </div>
     </div>
   );
