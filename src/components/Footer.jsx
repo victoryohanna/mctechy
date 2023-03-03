@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
+import {MdLocationOn} from 'react-icons/md'
 import Seprator from "./elements/Seprator";
+
+import '../styles/footer.css';
 
 const Footer = () => {
   return (
@@ -25,39 +28,38 @@ const Footer = () => {
           <div className="col-md-3 quick-links">
             <ul>
               <li>
-                <Link>Dance Classes</Link>
+                <Link to="/">Dance Classes</Link>
               </li>
               <li>
-                <Link>Classes TimeTable</Link>
+                <Link to="/">Classes TimeTable</Link>
               </li>
               <li>
-                <Link>Member Subscription</Link>
+                <Link to="/">Member Subscription</Link>
               </li>
               <li>
-                <Link>hire a dance studio</Link>
+                <Link to="/">hire a dance studio</Link>
               </li>
               <li>
-                <Link>become a professional</Link>
+                <Link to="/">become a professional</Link>
               </li>
               <li>
-                <Link>contact us anytime</Link>
+                <Link to="/">contact us anytime</Link>
               </li>
             </ul>
           </div>
           <div className="col-md-3 contact-section">
             <ul>
               <li>
-                <Link>Address</Link>
+                Address
               </li>
               <li>
-                <Link>Phone Number</Link>
+               Phone Number
               </li>
               <li>
-                <Link>Email Address</Link>
+                Email Address
               </li>
             </ul>
             <div className="social-media">
-
             </div>
           </div>
         </div>
