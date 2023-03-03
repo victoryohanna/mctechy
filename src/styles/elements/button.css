@@ -1,0 +1,15 @@
+
+.button{
+    
+    font-size: 18px;
+  font-size: 400;
+  text-transform: uppercase;
+  background: linear-gradient(
+    90deg,
+    rgb(31, 3, 145) 0%,
+    rgb(102, 60, 199) 100%
+  );
+  color: #ffffff;
+  border: none;
+  padding: 20px;
+}
