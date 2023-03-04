@@ -15,53 +15,654 @@ const OurPrograms = () => {
       </div>
       <Seprator />
       <div>
-        
         <Tabs
           id="controlled-tab-example"
           activeKey={key}
           onSelect={(k) => setKey(k)}
-          className="mb-3 programs-tabs"
+          className="mb-2 programs-tabs"
         >
           <Tab eventKey="frontend" title="Frontend Dev">
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius eos
-              laboriosam voluptatibus voluptatem earum fugiat ratione assumenda
-              incidunt minus quo, accusamus non perspiciatis repellat aliquid
-              tenetur. Fugiat facilis quibusdam animi.
-            </p>
+            <div className="container table-container">
+              <table className="table">
+                <tbody>
+                  <tr>
+                    <td>8 : 30</td>
+                    <td>
+                      <h5>Ballet</h5>
+                      <span>Kids/Beginners</span>
+                    </td>
+                    <td>
+                      <h5>Studio #7</h5>
+                      <span>Kids/Beginners</span>
+                    </td>
+                    <td>
+                      <div className="percetile">
+                        <h5>Availability</h5>
+                        <h5>87%</h5>
+                      </div>
+                      <div
+                        className="progress"
+                        role="progressbar"
+                        aria-label="Basic example"
+                        aria-valuenow="75"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        <div className="progress-bar "></div>
+                      </div>
+                    </td>
+                    <td>
+                      <button>book this class</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>8 : 30</td>
+                    <td>
+                      <h5>Ballet</h5>
+                      <span>Kids/Beginners</span>
+                    </td>
+                    <td>
+                      <h5>Studio #7</h5>
+                      <span>Kids/Beginners</span>
+                    </td>
+                    <td>
+                      <div className="percetile">
+                        <h5>Availability</h5>
+                        <h5>87%</h5>
+                      </div>
+                      <div
+                        className="progress"
+                        role="progressbar"
+                        aria-label="Basic example"
+                        aria-valuenow="75"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        <div className="progress-bar "></div>
+                      </div>
+                    </td>
+                    <td>
+                      <button>book this class</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>8 : 30</td>
+                    <td>
+                      <h5>Ballet</h5>
+                      <span>Kids/Beginners</span>
+                    </td>
+                    <td>
+                      <h5>Studio #7</h5>
+                      <span>Kids/Beginners</span>
+                    </td>
+                    <td>
+                      <div className="percetile">
+                        <h5>Availability</h5>
+                        <h5>87%</h5>
+                      </div>
+                      <div
+                        className="progress"
+                        role="progressbar"
+                        aria-label="Basic example"
+                        aria-valuenow="75"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        <div className="progress-bar "></div>
+                      </div>
+                    </td>
+                    <td>
+                      <button>book this class</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>8 : 30</td>
+                    <td>
+                      <h5>Ballet</h5>
+                      <span>Kids/Beginners</span>
+                    </td>
+                    <td>
+                      <h5>Studio #7</h5>
+                      <span>Kids/Beginners</span>
+                    </td>
+                    <td>
+                    <div className="percetile">
+                        <h5>Availability</h5>
+                        <h5>87%</h5>
+                      </div>
+                      <div
+                        className="progress"
+                        role="progressbar"
+                        aria-label="Basic example"
+                        aria-valuenow="75"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        <div className="progress-bar "></div>
+                      </div>
+                    </td>
+                    <td>
+                      <button>book this class</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>8 : 30</td>
+                    <td>
+                      <h5>Ballet</h5>
+                      <span>Kids/Beginners</span>
+                    </td>
+                    <td>
+                      <h5>Studio #7</h5>
+                      <span>Kids/Beginners</span>
+                    </td>
+                    <td>
+                    <div className="percetile">
+                        <h5>Availability</h5>
+                        <h5>87%</h5>
+                      </div>
+                      <div
+                        className="progress"
+                        role="progressbar"
+                        aria-label="Basic example"
+                        aria-valuenow="75"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        <div className="progress-bar "></div>
+                      </div>
+                    </td>
+                    <td>
+                      <button>book this class</button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </Tab>
           <Tab eventKey="backend" title="Backend Dev">
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius eos
-              laboriosam voluptatibus voluptatem earum fugiat ratione assumenda
-              incidunt minus quo, accusamus non perspiciatis repellat aliquid
-              tenetur. Fugiat facilis quibusdam animi.
-            </p>
+          <div className="container table-container">
+              <table className="table">
+                <tbody>
+                  <tr>
+                    <td>8 : 30</td>
+                    <td>
+                      <h5>Ballet</h5>
+                      <span>Kids/Beginners</span>
+                    </td>
+                    <td>
+                      <h5>Studio #7</h5>
+                      <span>Kids/Beginners</span>
+                    </td>
+                    <td>
+                      <div className="percetile">
+                        <h5>Availability</h5>
+                        <h5>87%</h5>
+                      </div>
+                      <div
+                        className="progress"
+                        role="progressbar"
+                        aria-label="Basic example"
+                        aria-valuenow="75"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        <div className="progress-bar "></div>
+                      </div>
+                    </td>
+                    <td>
+                      <button>book this class</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>8 : 30</td>
+                    <td>
+                      <h5>Ballet</h5>
+                      <span>Kids/Beginners</span>
+                    </td>
+                    <td>
+                      <h5>Studio #7</h5>
+                      <span>Kids/Beginners</span>
+                    </td>
+                    <td>
+                    <div className="percetile">
+                        <h5>Availability</h5>
+                        <h5>87%</h5>
+                      </div>
+                      <div
+                        className="progress"
+                        role="progressbar"
+                        aria-label="Basic example"
+                        aria-valuenow="75"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        <div className="progress-bar "></div>
+                      </div>
+                    </td>
+                    <td>
+                      <button>book this class</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>8 : 30</td>
+                    <td>
+                      <h5>Ballet</h5>
+                      <span>Kids/Beginners</span>
+                    </td>
+                    <td>
+                      <h5>Studio #7</h5>
+                      <span>Kids/Beginners</span>
+                    </td>
+                    <td>
+                    <div className="percetile">
+                        <h5>Availability</h5>
+                        <h5>87%</h5>
+                      </div>
+                      <div
+                        className="progress"
+                        role="progressbar"
+                        aria-label="Basic example"
+                        aria-valuenow="75"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        <div className="progress-bar "></div>
+                      </div>
+                    </td>
+                    <td>
+                      <button>book this class</button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </Tab>
-          <Tab eventKey="product-design" title="Product Design" >
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius eos
-              laboriosam voluptatibus voluptatem earum fugiat ratione assumenda
-              incidunt minus quo, accusamus non perspiciatis repellat aliquid
-              tenetur. Fugiat facilis quibusdam animi.
-            </p>
+          <Tab eventKey="product-design" title="Product Design">
+          <div className="container table-container">
+              <table className="table">
+                <tbody>
+                  <tr>
+                    <td>8 : 30</td>
+                    <td>
+                      <h5>Ballet</h5>
+                      <span>Kids/Beginners</span>
+                    </td>
+                    <td>
+                      <h5>Studio #7</h5>
+                      <span>Kids/Beginners</span>
+                    </td>
+                    <td>
+                      <div className="percetile">
+                        <h5>Availability</h5>
+                        <h5>87%</h5>
+                      </div>
+                      <div
+                        className="progress"
+                        role="progressbar"
+                        aria-label="Basic example"
+                        aria-valuenow="75"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        <div className="progress-bar "></div>
+                      </div>
+                    </td>
+                    <td>
+                      <button>book this class</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>8 : 30</td>
+                    <td>
+                      <h5>Ballet</h5>
+                      <span>Kids/Beginners</span>
+                    </td>
+                    <td>
+                      <h5>Studio #7</h5>
+                      <span>Kids/Beginners</span>
+                    </td>
+                    <td>
+                    <div className="percetile">
+                        <h5>Availability</h5>
+                        <h5>87%</h5>
+                      </div>
+                      <div
+                        className="progress"
+                        role="progressbar"
+                        aria-label="Basic example"
+                        aria-valuenow="75"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        <div className="progress-bar "></div>
+                      </div>
+                    </td>
+                    <td>
+                      <button>book this class</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>8 : 30</td>
+                    <td>
+                      <h5>Ballet</h5>
+                      <span>Kids/Beginners</span>
+                    </td>
+                    <td>
+                      <h5>Studio #7</h5>
+                      <span>Kids/Beginners</span>
+                    </td>
+                    <td>
+                    <div className="percetile">
+                        <h5>Availability</h5>
+                        <h5>87%</h5>
+                      </div>
+                      <div
+                        className="progress"
+                        role="progressbar"
+                        aria-label="Basic example"
+                        aria-valuenow="75"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        <div className="progress-bar "></div>
+                      </div>
+                    </td>
+                    <td>
+                      <button>book this class</button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </Tab>
-          <Tab eventKey="project-mgt" title="Project Management" >
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius eos
-              laboriosam voluptatibus voluptatem earum fugiat ratione assumenda
-              incidunt minus quo, accusamus non perspiciatis repellat aliquid
-              tenetur. Fugiat facilis quibusdam animi.
-            </p>
+          <Tab eventKey="project-mgt" title="Project Management">
+          <div className="container table-container">
+              <table className="table">
+                <tbody>
+                  <tr>
+                    <td>8 : 30</td>
+                    <td>
+                      <h5>Ballet</h5>
+                      <span>Kids/Beginners</span>
+                    </td>
+                    <td>
+                      <h5>Studio #7</h5>
+                      <span>Kids/Beginners</span>
+                    </td>
+                    <td>
+                      <div className="percetile">
+                        <h5>Availability</h5>
+                        <h5>87%</h5>
+                      </div>
+                      <div
+                        className="progress"
+                        role="progressbar"
+                        aria-label="Basic example"
+                        aria-valuenow="75"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        <div className="progress-bar "></div>
+                      </div>
+                    </td>
+                    <td>
+                      <button>book this class</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>8 : 30</td>
+                    <td>
+                      <h5>Ballet</h5>
+                      <span>Kids/Beginners</span>
+                    </td>
+                    <td>
+                      <h5>Studio #7</h5>
+                      <span>Kids/Beginners</span>
+                    </td>
+                    <td>
+                      <div className="percetile">
+                        <h5>Availability</h5>
+                        <h5>87%</h5>
+                      </div>
+                      <div
+                        className="progress"
+                        role="progressbar"
+                        aria-label="Basic example"
+                        aria-valuenow="75"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        <div className="progress-bar "></div>
+                      </div>
+                    </td>
+                    <td>
+                      <button>book this class</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>8 : 30</td>
+                    <td>
+                      <h5>Ballet</h5>
+                      <span>Kids/Beginners</span>
+                    </td>
+                    <td>
+                      <h5>Studio #7</h5>
+                      <span>Kids/Beginners</span>
+                    </td>
+                    <td>
+                    <div className="percetile">
+                        <h5>Availability</h5>
+                        <h5>87%</h5>
+                      </div>
+                      <div
+                        className="progress"
+                        role="progressbar"
+                        aria-label="Basic example"
+                        aria-valuenow="75"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        <div className="progress-bar "></div>
+                      </div>
+                    </td>
+                    <td>
+                      <button>book this class</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>8 : 30</td>
+                    <td>
+                      <h5>Ballet</h5>
+                      <span>Kids/Beginners</span>
+                    </td>
+                    <td>
+                      <h5>Studio #7</h5>
+                      <span>Kids/Beginners</span>
+                    </td>
+                    <td>
+                    <div className="percetile">
+                        <h5>Availability</h5>
+                        <h5>87%</h5>
+                      </div>
+                      <div
+                        className="progress"
+                        role="progressbar"
+                        aria-label="Basic example"
+                        aria-valuenow="75"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        <div className="progress-bar "></div>
+                      </div>
+                    </td>
+                    <td>
+                      <button>book this class</button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </Tab>
-          <Tab eventKey="business-analytics" title="Business Anaytics" >
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius eos
-              laboriosam voluptatibus voluptatem earum fugiat ratione assumenda
-              incidunt minus quo, accusamus non perspiciatis repellat aliquid
-              tenetur. Fugiat facilis quibusdam animi.
-            </p>
+          <Tab eventKey="business-analytics" title="Business Anaytics">
+          <div className="container table-container">
+              <table className="table">
+                <tbody>
+                  <tr>
+                    <td>8 : 30</td>
+                    <td>
+                      <h5>Ballet</h5>
+                      <span>Kids/Beginners</span>
+                    </td>
+                    <td>
+                      <h5>Studio #7</h5>
+                      <span>Kids/Beginners</span>
+                    </td>
+                    <td>
+                      <div className="percetile">
+                        <h5>Availability</h5>
+                        <h5>87%</h5>
+                      </div>
+                      <div
+                        className="progress"
+                        role="progressbar"
+                        aria-label="Basic example"
+                        aria-valuenow="75"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        <div className="progress-bar "></div>
+                      </div>
+                    </td>
+                    <td>
+                      <button>book this class</button>
+                    </td>
+                  </tr>
+                  
+                  <tr>
+                    <td>8 : 30</td>
+                    <td>
+                      <h5>Ballet</h5>
+                      <span>Kids/Beginners</span>
+                    </td>
+                    <td>
+                      <h5>Studio #7</h5>
+                      <span>Kids/Beginners</span>
+                    </td>
+                    <td>
+                      <div className="percetile">
+                        <h5>Availability</h5>
+                        <h5>87%</h5>
+                      </div>
+                      <div
+                        className="progress"
+                        role="progressbar"
+                        aria-label="Basic example"
+                        aria-valuenow="75"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        <div className="progress-bar "></div>
+                      </div>
+                    </td>
+                    <td>
+                      <button>book this class</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>8 : 30</td>
+                    <td>
+                      <h5>Ballet</h5>
+                      <span>Kids/Beginners</span>
+                    </td>
+                    <td>
+                      <h5>Studio #7</h5>
+                      <span>Kids/Beginners</span>
+                    </td>
+                    <td>
+                      <div className="percetile">
+                        <h5>Availability</h5>
+                        <h5>87%</h5>
+                      </div>
+                      <div
+                        className="progress"
+                        role="progressbar"
+                        aria-label="Basic example"
+                        aria-valuenow="75"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        <div className="progress-bar "></div>
+                      </div>
+                    </td>
+                    <td>
+                      <button>book this class</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>8 : 30</td>
+                    <td>
+                      <h5>Ballet</h5>
+                      <span>Kids/Beginners</span>
+                    </td>
+                    <td>
+                      <h5>Studio #7</h5>
+                      <span>Kids/Beginners</span>
+                    </td>
+                    <td>
+                    <div className="percetile">
+                        <h5>Availability</h5>
+                        <h5>87%</h5>
+                      </div>
+                      <div
+                        className="progress"
+                        role="progressbar"
+                        aria-label="Basic example"
+                        aria-valuenow="75"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        <div className="progress-bar "></div>
+                      </div>
+                    </td>
+                    <td>
+                      <button>book this class</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>8 : 30</td>
+                    <td>
+                      <h5>Ballet</h5>
+                      <span>Kids/Beginners</span>
+                    </td>
+                    <td>
+                      <h5>Studio #7</h5>
+                      <span>Kids/Beginners</span>
+                    </td>
+                    <td>
+                    <div className="percetile">
+                        <h5>Availability</h5>
+                        <h5>87%</h5>
+                      </div>
+                      <div
+                        className="progress"
+                        role="progressbar"
+                        aria-label="Basic example"
+                        aria-valuenow="75"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        <div className="progress-bar "></div>
+                      </div>
+                    </td>
+                    <td>
+                      <button>book this class</button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </Tab>
+          
         </Tabs>
       </div>
     </div>
