@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import "../styles/bootcamp.css";
 
-import { bootcamp1, bootcamp2, bootcamp3, bootcamp4 } from "./images";
+import { bootcamp1, bootcamp2, bootcamp3, bootcamp4 } from "./files/images";
 
 import Seprator from "./elements/Seprator";
 
