@@ -1,10 +1,45 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import "../styles/bootcamp.css";
-import image3 from "../assets/bootcamp1.jpg";
+
+import { bootcamp1, bootcamp2, bootcamp3, bootcamp4 } from "./images";
 
 import Seprator from "./elements/Seprator";
 
 const BootcampSection = () => {
+  const [events, setEvents] = useState();
+  const [weekends, setWeekends] = useState();
+  const [certified, setCertified] = useState();
+  const [proClasses, setProClasses] = useState();
+
+  const renderImgEvents = () => {
+    setEvents(true);
+    setCertified(false);
+    setProClasses(false);
+    setWeekends(false);
+  };
+
+  const renderImgWeekend = () => {
+    setEvents(false);
+    setCertified(false);
+    setProClasses(false);
+    setWeekends(true);
+  };
+
+  const renderImgCert = () => {
+    setEvents(false);
+    setWeekends(false);
+    setProClasses(false);
+    setCertified(true);
+  };
+
+  const renderImgClasses = () => {
+    setEvents(false);
+    setWeekends(false);
+    setCertified(false);
+    setProClasses(true);
+  };
+
   return (
     <div className=" container-bootcamp">
       <div className="container header-text">
@@ -12,30 +47,35 @@ const BootcampSection = () => {
         <h1>Get Job-Ready in no time</h1>
       </div>
       <div className="container">
-        <Seprator/>
+        <Seprator />
         <div className="main-section">
           <div className="items-list">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link to="/" className="nav-link">
+                <Link to="/" onClick={renderImgEvents} className="nav-link">
                   <h2>Evenings Only</h2>
                   <span>Got a day job? We have program for you</span>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/" className="nav-link active" aria-current="page">
+                <Link
+                  to="/"
+                  onClick={renderImgWeekend}
+                  className="nav-link active"
+                  aria-current="page"
+                >
                   <h2>Weekends Only</h2>
                   <span>Busy Week? We offer Weekend Only classes</span>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/" className="nav-link">
+                <Link to="/" onClick={renderImgCert} className="nav-link">
                   <h2>Become Certified</h2>
                   <span>Get jon ready with the right certifications</span>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/" className="nav-link">
+                <Link onClick={renderImgClasses} className="nav-link">
                   <h2>Onsite Classes</h2>
                   <span>Get one on one interactions with tutors</span>
                 </Link>
@@ -43,7 +83,17 @@ const BootcampSection = () => {
             </ul>
           </div>
           <div className="image-section">
-            <img className="imag" src={image3} alt="" />
+            {events ? (
+              <img className="imag" src={bootcamp1} alt="" />
+            ) : weekends ? (
+              <img className="imag" src={bootcamp2} alt="" />
+            ) : certified ? (
+              <img className="imag" src={bootcamp3} alt="" />
+            ) : proClasses ? (
+              <img className="imag" src={bootcamp4} alt="" />
+            ) : (
+              <img className="imag" src={bootcamp1} alt="" />
+            )}
           </div>
         </div>
       </div>
