@@ -153,3 +153,22 @@ export const businessAnalytics = [
 
 ]
 
+export const programs = [
+    "Frontend Development",
+    "Backend Development",
+    "Product Design",
+    "Project Management",
+    "Business Analysis",
+    "ICDL Workforce",
+    "ICDL Professional",
+    "ICDL Insight",
+    "ICDL Digital Citizen",
+    "ICDL Digital Student",
+    "Smart Digital",
+    "I am not Sure",
+  ];
+
+export const schedules =[
+    ""
+]
+
