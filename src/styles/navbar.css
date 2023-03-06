@@ -1,9 +1,6 @@
 
 .navbar-container{
-    background: rgb(145, 145, 143);
-    color: #ffffff;
-    padding: 12px 0;
-    
+    padding: 12px 0;  
 }
 
 .navbar-brand img{
@@ -12,5 +9,5 @@
 
 .items a{
     font-size: 18px;
-    color: #ffffff;
+    color: #141414;
 }
