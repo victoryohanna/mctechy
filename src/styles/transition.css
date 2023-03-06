@@ -1,48 +1,45 @@
-
-.transition-main{
-    height: 500px;
-    margin: 30px 0;
-    background:linear-gradient(180deg, #e0dcdc 0%, #ffffff 80%);
-    /* border: 1px solid black; */
+.transition-main {
+  height: 500px;
+  margin: 30px 0;
+  background: linear-gradient(180deg, #e0dcdc 0%, #ffffff 80%);
+  /* border: 1px solid black; */
 }
 
-.transition-card{
-    background: #ffffff;
-    margin-top: 50px;
-    position: absolute;
-    width: 100%;
-    box-shadow:0px 0px 10px 20px #e1dfdf ;
-    /* border: 1px solid black; */
+.transition-card {
+  background: #ffffff;
+  margin-top: 20px;
+  position: absolute;
+  width: 100%;
+  box-shadow: 0px 0px 10px 20px #e1dfdf;
+  /* border: 1px solid black; */
 }
 
-.transition-container{
-    display: flex;
-    justify-content: space-between;
-    padding: 70px 0;
-    /* border: 1px solid black;  */
+.transition-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 70px 0;
+  /* border: 1px solid black;  */
 }
 
-.transition-text p{
-    font-size: 25px;
-    font-weight: 400;
+.transition-text p {
+  font-size: 25px;
+  font-weight: 400;
 }
 
-.transition-text h1{
-    color: #725aca;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.transition-text h1 {
+  color: #725aca;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
-.image4{
-    position: absolute;
-    left: 450px;
+.image4 {
+  position: absolute;
+  left: 450px;
 }
 
-
-
-.btn-transition{
-
+.btn-transition {
   font-size: 18px;
   font-size: 400;
   text-transform: uppercase;
@@ -53,5 +50,6 @@
   );
   color: #ffffff;
   border: none;
+  border-radius: 5px;
   padding: 20px;
 }
