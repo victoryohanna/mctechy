@@ -1,4 +1,6 @@
 
+import { image1,image2, image3 } from "./images";
+
 export const frontendDev = [
     {
         item1: "8:30",
@@ -149,6 +151,48 @@ export const businessAnalytics = [
         item2: "Deep Learning",
         item3: "Power BI",
         item4: "20%",
+    },
+
+]
+
+export const testimonials =[
+    {
+        name: "Jessica Barel",
+        membership: "Product Designer",
+
+        testimony: "Our client list is drawn from the competitive world of\
+        stand-up comedy and our boutique, focused company works\
+        closely with them to develop talents learned on the circle\
+        into the skills for a long-lasting career performing and\
+        writing for television",
+
+        profile_picture: image1
+    },
+
+    {
+        name: "William Barel",
+        membership: "Data Analyst",
+
+        testimony: "Our client list is drawn from the competitive world of\
+        stand-up comedy and our boutique, focused company works\
+        closely with them to develop talents learned on the circle\
+        into the skills for a long-lasting career performing and\
+        writing for television",
+
+        profile_picture: image2
+    },
+
+    {
+        name: "Melissa WoodLand",
+        membership: "Frontend Developer",
+
+        testimony: "Our client list is drawn from the competitive world of\
+        stand-up comedy and our boutique, focused company works\
+        closely with them to develop talents learned on the circle\
+        into the skills for a long-lasting career performing and\
+        writing for television",
+
+        profile_picture: image3
     },
 
 ]
