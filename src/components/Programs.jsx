@@ -4,7 +4,13 @@ import Tabs from "react-bootstrap/Tabs";
 import Seprator from "./elements/Seprator";
 
 import "../styles/programs.css";
-import { frontendDev, backendDev, productDesign, projectMgt, businessAnalytics } from "./files/programlist";
+import {
+  frontendDev,
+  backendDev,
+  productDesign,
+  projectMgt,
+  businessAnalytics,
+} from "./files/dataFile";
 
 const OurPrograms = () => {
   const [key, setKey] = useState("frontend");
@@ -33,7 +39,6 @@ const OurPrograms = () => {
   useEffect(() => {
     setAnalytic(businessAnalytics);
   }, []);
-
 
   return (
     <div className="container programs-container">
@@ -95,43 +100,40 @@ const OurPrograms = () => {
             <div className="container table-container">
               <table className="table">
                 <tbody>
-                  {
-                    backendData.map((item, index)=>{
-                      return(
-                        <tr>
-                    <td>{item.item1}</td>
-                    <td>
-                      <h5>{item.item2}</h5>
-                      <span>Kids/Beginners</span>
-                    </td>
-                    <td>
-                      <h5>{item.item3}</h5>
-                      <span>Kids/Beginners</span>
-                    </td>
-                    <td>
-                      <div className="percetile">
-                        <h5>Availability</h5>
-                        <h5>{item.item4}</h5>
-                      </div>
-                      <div
-                        className="progress"
-                        role="progressbar"
-                        aria-label="Basic example"
-                        aria-valuenow="75"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      >
-                        <div className="progress-bar "></div>
-                      </div>
-                    </td>
-                    <td>
-                      <button>book this class</button>
-                    </td>
-                  </tr>
-                      )
-                    })
-                  }
-                  
+                  {backendData.map((item, index) => {
+                    return (
+                      <tr>
+                        <td>{item.item1}</td>
+                        <td>
+                          <h5>{item.item2}</h5>
+                          <span>Kids/Beginners</span>
+                        </td>
+                        <td>
+                          <h5>{item.item3}</h5>
+                          <span>Kids/Beginners</span>
+                        </td>
+                        <td>
+                          <div className="percetile">
+                            <h5>Availability</h5>
+                            <h5>{item.item4}</h5>
+                          </div>
+                          <div
+                            className="progress"
+                            role="progressbar"
+                            aria-label="Basic example"
+                            aria-valuenow="75"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                          >
+                            <div className="progress-bar "></div>
+                          </div>
+                        </td>
+                        <td>
+                          <button>book this class</button>
+                        </td>
+                      </tr>
+                    );
+                  })}
                 </tbody>
               </table>
             </div>
@@ -140,43 +142,40 @@ const OurPrograms = () => {
             <div className="container table-container">
               <table className="table">
                 <tbody>
-                  
-                {
-                    design.map((item, index)=>{
-                      return(
-                        <tr>
-                    <td>{item.item1}</td>
-                    <td>
-                      <h5>{item.item2}</h5>
-                      <span>Kids/Beginners</span>
-                    </td>
-                    <td>
-                      <h5>{item.item3}</h5>
-                      <span>Kids/Beginners</span>
-                    </td>
-                    <td>
-                      <div className="percetile">
-                        <h5>Availability</h5>
-                        <h5>{item.item4}</h5>
-                      </div>
-                      <div
-                        className="progress"
-                        role="progressbar"
-                        aria-label="Basic example"
-                        aria-valuenow="75"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      >
-                        <div className="progress-bar "></div>
-                      </div>
-                    </td>
-                    <td>
-                      <button>book this class</button>
-                    </td>
-                  </tr>
-                      )
-                    })
-                  }
+                  {design.map((item, index) => {
+                    return (
+                      <tr>
+                        <td>{item.item1}</td>
+                        <td>
+                          <h5>{item.item2}</h5>
+                          <span>Kids/Beginners</span>
+                        </td>
+                        <td>
+                          <h5>{item.item3}</h5>
+                          <span>Kids/Beginners</span>
+                        </td>
+                        <td>
+                          <div className="percetile">
+                            <h5>Availability</h5>
+                            <h5>{item.item4}</h5>
+                          </div>
+                          <div
+                            className="progress"
+                            role="progressbar"
+                            aria-label="Basic example"
+                            aria-valuenow="75"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                          >
+                            <div className="progress-bar "></div>
+                          </div>
+                        </td>
+                        <td>
+                          <button>book this class</button>
+                        </td>
+                      </tr>
+                    );
+                  })}
                 </tbody>
               </table>
             </div>
@@ -185,42 +184,40 @@ const OurPrograms = () => {
             <div className="container table-container">
               <table className="table">
                 <tbody>
-                {
-                    projManament.map((item, index)=>{
-                      return(
-                        <tr>
-                    <td>{item.item1}</td>
-                    <td>
-                      <h5>{item.item2}</h5>
-                      <span>Kids/Beginners</span>
-                    </td>
-                    <td>
-                      <h5>{item.item3}</h5>
-                      <span>Kids/Beginners</span>
-                    </td>
-                    <td>
-                      <div className="percetile">
-                        <h5>Availability</h5>
-                        <h5>{item.item4}</h5>
-                      </div>
-                      <div
-                        className="progress"
-                        role="progressbar"
-                        aria-label="Basic example"
-                        aria-valuenow="75"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      >
-                        <div className="progress-bar "></div>
-                      </div>
-                    </td>
-                    <td>
-                      <button>book this class</button>
-                    </td>
-                  </tr>
-                      )
-                    })
-                  }
+                  {projManament.map((item, index) => {
+                    return (
+                      <tr>
+                        <td>{item.item1}</td>
+                        <td>
+                          <h5>{item.item2}</h5>
+                          <span>Kids/Beginners</span>
+                        </td>
+                        <td>
+                          <h5>{item.item3}</h5>
+                          <span>Kids/Beginners</span>
+                        </td>
+                        <td>
+                          <div className="percetile">
+                            <h5>Availability</h5>
+                            <h5>{item.item4}</h5>
+                          </div>
+                          <div
+                            className="progress"
+                            role="progressbar"
+                            aria-label="Basic example"
+                            aria-valuenow="75"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                          >
+                            <div className="progress-bar "></div>
+                          </div>
+                        </td>
+                        <td>
+                          <button>book this class</button>
+                        </td>
+                      </tr>
+                    );
+                  })}
                 </tbody>
               </table>
             </div>
@@ -229,42 +226,40 @@ const OurPrograms = () => {
             <div className="container table-container">
               <table className="table">
                 <tbody>
-                {
-                    analytic.map((item, index)=>{
-                      return(
-                        <tr>
-                    <td>{item.item1}</td>
-                    <td>
-                      <h5>{item.item2}</h5>
-                      <span>Kids/Beginners</span>
-                    </td>
-                    <td>
-                      <h5>{item.item3}</h5>
-                      <span>Kids/Beginners</span>
-                    </td>
-                    <td>
-                      <div className="percetile">
-                        <h5>Availability</h5>
-                        <h5>{item.item4}</h5>
-                      </div>
-                      <div
-                        className="progress"
-                        role="progressbar"
-                        aria-label="Basic example"
-                        aria-valuenow="75"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      >
-                        <div className="progress-bar "></div>
-                      </div>
-                    </td>
-                    <td>
-                      <button>book this class</button>
-                    </td>
-                  </tr>
-                      )
-                    })
-                  }
+                  {analytic.map((item, index) => {
+                    return (
+                      <tr>
+                        <td>{item.item1}</td>
+                        <td>
+                          <h5>{item.item2}</h5>
+                          <span>Kids/Beginners</span>
+                        </td>
+                        <td>
+                          <h5>{item.item3}</h5>
+                          <span>Kids/Beginners</span>
+                        </td>
+                        <td>
+                          <div className="percetile">
+                            <h5>Availability</h5>
+                            <h5>{item.item4}</h5>
+                          </div>
+                          <div
+                            className="progress"
+                            role="progressbar"
+                            aria-label="Basic example"
+                            aria-valuenow="75"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                          >
+                            <div className="progress-bar "></div>
+                          </div>
+                        </td>
+                        <td>
+                          <button>book this class</button>
+                        </td>
+                      </tr>
+                    );
+                  })}
                 </tbody>
               </table>
             </div>
