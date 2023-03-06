@@ -61,8 +61,8 @@ const BootcampSection = () => {
                 <Link
                   to="/"
                   onClick={renderImgWeekend}
-                  className="nav-link active"
-                  aria-current="page"
+                  className="nav-link "
+                 
                 >
                   <h2>Weekends Only</h2>
                   <span>Busy Week? We offer Weekend Only classes</span>

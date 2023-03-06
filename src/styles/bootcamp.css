@@ -1,21 +1,10 @@
 .container-bootcamp {
-  margin-top: 150px;
-  margin-bottom: 100px;
-  padding-bottom: 120px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  padding-bottom: 50px;
   background:linear-gradient(2deg, #e0dcdc 0%, #ffffff 80%);
 }
 
-.seperator {
-  width: 130px;
-  height: 10px;
-  background: linear-gradient(
-    90deg,
-    rgba(42, 7, 187, 1) 0%,
-    rgb(142, 107, 224) 100%
-  );
-
-  margin-bottom: 50px;
-}
 
 .header-text span {
   font-size: 25px;
@@ -55,4 +44,9 @@
 .imag {
   width: 650px;
   height: 700px;
+}
+
+.nav-item  :hover{
+ color: #361cac;
+ /* background-color: #361cac; */
 }
