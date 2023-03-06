@@ -1,6 +1,8 @@
 import "../styles/testimonials.css";
-import image7 from "../assets/image7.png";
-import image8 from "../assets/p1.jpg";
+
+
+import { logo, image1, image2, image3 } from "./files/images";
+//import { testimonials } from "./files/dataFile";
 
 const Testimonials = () => {
   return (
@@ -42,7 +44,7 @@ const Testimonials = () => {
                 </p>
                 <div className="">
                   <div className="member-details">
-                    <img src={image8} className="carousel-img" alt="..." />
+                    <img src={image1} className="carousel-img" alt="..." />
 
                     <div className="member-subText">
                       <h3>Melisa WoodLand</h3>
@@ -61,7 +63,7 @@ const Testimonials = () => {
                 </p>
                 <div>
                   <div className="member-details">
-                    <img src={image8} className="carousel-img" alt="..." />
+                    <img src={image2} className="carousel-img" alt="..." />
 
                     <div className="member-subText">
                       <h3>Williams Barel</h3>
@@ -79,7 +81,7 @@ const Testimonials = () => {
                   writing for television
                 </p>
                 <div className="member-details">
-                  <img src={image8} className="carousel-img" alt="..." />
+                  <img src={image3} className="carousel-img" alt="..." />
                   <div className="member-subText">
                     <h3>Scott Kusha</h3>
                     <span>Member Since 2009</span>
@@ -90,7 +92,7 @@ const Testimonials = () => {
           </div>
         </div>
         <div className="testimony-image">
-          <img src={image7} alt="" />
+          <img src={logo} alt="" />
         </div>
       </div>
     </div>

@@ -160,11 +160,8 @@ export const testimonials =[
         name: "Jessica Barel",
         membership: "Product Designer",
 
-        testimony: "Our client list is drawn from the competitive world of\
-        stand-up comedy and our boutique, focused company works\
-        closely with them to develop talents learned on the circle\
-        into the skills for a long-lasting career performing and\
-        writing for television",
+        testimony: "Our client list is drawn from the competitive world of stand-up comedy and our boutique, focused company works\
+        ",
 
         profile_picture: image1
     },
