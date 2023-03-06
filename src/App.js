@@ -1,28 +1,15 @@
 
-import Header from "./components/Header";
-import OptionList from "./components/Options";
-import BootcampSection from "./components/Bootcamp";
-import OurPrograms from "./components/Programs";
-import Transition from "./components/Transition";
-import Membership from "./components/Membership";
-import Testimonials from "./components/Testimonials";
-import TechBootcamp from "./components/TechBootcamp";
+
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <div className="App">
      <div>
       <Navbar/>
-      <Header/>
-      <OptionList/>
-      <BootcampSection/>
-      <OurPrograms/>
-      <Transition/>
-      <Membership/>
-      <Testimonials/>
-      <TechBootcamp/>
+      <Home/>
       <Footer/>
      </div>
     </div>
