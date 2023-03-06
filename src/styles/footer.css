@@ -1,25 +1,70 @@
-.quick-links{
-    text-transform: uppercase;
+.footer {
+  background: rgba(48, 48, 32);
+  color: #ffffff;
 }
 
-.quick-links ul{
-    list-style-type: square;
-    font-size: 18px;
+.logo-section {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
 }
 
-.quick-links li{
-    line-height: 35px;
-  
+.logo-section img {
+  width: 250px;
+  height: 40px;
 }
 
-.quick-links a{
-    text-decoration: none;
-    color: #615d5d;
+.quick-links ul {
+  display: inline-block;
+  line-height: 35px;
+  font-size: 14px;
 }
 
-.contact-section li{
+.quick-links li {
+  list-style: none;
+  color: #c4c1c1;
+}
 
-    list-style: none;
-    margin-bottom: 15px;
-    font-size: 18px;
+.quick-links a {
+  text-decoration: none;
+  color: #c4c1c1;
+  font-weight: 100;
+}
+
+.quick-links li :hover {
+  color: rgb(73, 73, 236);
+}
+
+.foot-note {
+  text-align: justify;
+}
+
+.social-media {
+  margin-top: 50px;
+}
+
+.social-media ul {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media li {
+  list-style: none;
+  margin: 10px 30px;
+  font-size: 25px;
+}
+
+.social-media a {
+  color: #cfcbcb;
+}
+
+.social-media a :hover {
+  color: rgb(73, 73, 236);
+}
+
+.copyright {
+  margin-top: 20px;
+  padding: 20px 0;
+  font-size: 12px;
+  background: rgba(16, 16, 0);
 }
