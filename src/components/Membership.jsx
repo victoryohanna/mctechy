@@ -9,8 +9,8 @@ const Membership = () => {
   return (
     <div className="container member-container">
       <div className="header-text">
-        <span>Get Started and Join the club</span>
-        <h1>Become a Member of Dancify</h1>
+        <span>Get Started and Join our club</span>
+        <h1>Become a Member of Mctechy</h1>
       </div>
       <Seprator/>
       <div className="member-main">
