@@ -1,0 +1,16 @@
+
+.navbar-container{
+    background: rgb(145, 145, 143);
+    color: #ffffff;
+    padding: 12px 0;
+    
+}
+
+.navbar-brand img{
+    width: 200px;
+}
+
+.items a{
+    font-size: 18px;
+    color: #ffffff;
+}

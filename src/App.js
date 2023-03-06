@@ -8,11 +8,13 @@ import Membership from "./components/Membership";
 import Testimonials from "./components/Testimonials";
 import TechBootcamp from "./components/TechBootcamp";
 import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div className="App">
      <div>
+      <Navbar/>
       <Header/>
       <OptionList/>
       <BootcampSection/>
