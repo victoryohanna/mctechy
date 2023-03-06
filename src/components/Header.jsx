@@ -1,5 +1,5 @@
 import "../styles/header.css";
-import image1 from "../assets/header1.jpg";
+import image1 from "../assets/header11.jpg";
 import image2 from "../assets/header2.jpg";
 
 const Header = () => {
