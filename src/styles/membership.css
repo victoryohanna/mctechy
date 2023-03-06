@@ -1,15 +1,6 @@
 .member-container {
-  margin-top: 60px;
-  margin-bottom: 50px;
-}
-
-.member-main {
-  display: flex;
-}
-
-.section-text,
-.section-card {
-  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .p2-text {
@@ -28,11 +19,8 @@
 }
 
 .crd-body {
-  width: 90%;
-  margin: auto;
   padding: 50px;
   box-shadow: 0px 0px 10px 5px #e1dfdf;
-  /* border: 1px solid black; */
 }
 
 .price-tag {

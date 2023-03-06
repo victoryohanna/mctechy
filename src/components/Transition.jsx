@@ -1,6 +1,6 @@
 
 import '../styles/transition.css';
-import image4 from '../assets/transition1.png'
+import image4 from '../assets/transition1.png';
 
 const Transition = ()=>{
     return(

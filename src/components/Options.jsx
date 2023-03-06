@@ -7,7 +7,7 @@ const schedules = [
   "Weekends Only (6 Months)",
 ];
 
-const OptionList = () => {
+const OptionList = () => { 
   return (
     <div className="container options-container">
       <div className="container">

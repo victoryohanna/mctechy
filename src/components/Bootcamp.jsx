@@ -48,8 +48,8 @@ const BootcampSection = () => {
       </div>
       <div className="container">
         <Seprator />
-        <div className="main-section">
-          <div className="items-list">
+        <div className="main-section row">
+          <div className="items-list col-md-6 ">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <Link to="/" onClick={renderImgEvents} className="nav-link">
@@ -61,8 +61,7 @@ const BootcampSection = () => {
                 <Link
                   to="/"
                   onClick={renderImgWeekend}
-                  className="nav-link "
-                 
+                  className="nav-link "                 
                 >
                   <h2>Weekends Only</h2>
                   <span>Busy Week? We offer Weekend Only classes</span>
@@ -82,17 +81,17 @@ const BootcampSection = () => {
               </li>
             </ul>
           </div>
-          <div className="image-section">
+          <div className="image-section col-md-6">
             {events ? (
-              <img className="imag" src={bootcamp1} alt="" />
+              <img className="imag img-fluid" src={bootcamp1} alt="" />
             ) : weekends ? (
-              <img className="imag" src={bootcamp2} alt="" />
+              <img className="imag img-fluid" src={bootcamp2} alt="" />
             ) : certified ? (
-              <img className="imag" src={bootcamp3} alt="" />
+              <img className="imag img-fluid" src={bootcamp3} alt="" />
             ) : proClasses ? (
-              <img className="imag" src={bootcamp4} alt="" />
+              <img className="imag img-fluid" src={bootcamp4} alt="" />
             ) : (
-              <img className="imag" src={bootcamp1} alt="" />
+              <img className="imag img-fluid" src={bootcamp1} alt="" />
             )}
           </div>
         </div>

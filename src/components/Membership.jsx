@@ -13,8 +13,8 @@ const Membership = () => {
         <h1>Become a Member of Mctechy</h1>
       </div>
       <Seprator/>
-      <div className="member-main">
-        <div className="section-text">
+      <div className="member-main row">
+        <div className="section-text col-md-6">
           <div className="p-text">
             <p>
               Our client list is drawn from the competitive world of stand-up
@@ -36,7 +36,7 @@ const Membership = () => {
             </ul>
           </div>
         </div>
-        <div className="section-card">
+        <div className="section-card col-md-6">
           <div className="crd-body">
             <div className="price-tag">
               <div className="amount-tag">

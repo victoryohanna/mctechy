@@ -1,10 +1,9 @@
 .container-bootcamp {
-  margin-top: 70px;
-  margin-bottom: 70px;
+  margin-top: 35px;
+  margin-bottom: 35px;
   padding-bottom: 50px;
-  background:linear-gradient(2deg, #e0dcdc 0%, #ffffff 80%);
+  background: linear-gradient(2deg, #e0dcdc 0%, #ffffff 80%);
 }
-
 
 .header-text span {
   font-size: 25px;
@@ -16,18 +15,11 @@
   font-weight: 700;
 }
 
-.main-section {
-  display: flex;
-  justify-content: space-between;
-}
-
 .items-list {
   text-decoration: none;
-  width: 42%;
 }
 
 .items-list ul {
-  margin: 60px 10px;
   padding: 50px 0 0 50px;
   background: #ffffff;
   box-shadow: 0px 0px 22px 0px #dad7d7;
@@ -41,12 +33,6 @@
   font-size: 20px;
 }
 
-.imag {
-  width: 650px;
-  height: 700px;
-}
-
-.nav-item  :hover{
- color: #361cac;
- /* background-color: #361cac; */
+.nav-item :hover {
+  color: #361cac;
 }
