@@ -1,6 +1,6 @@
 import "../styles/optionslist.css";
 
-import { programs } from "./files/programlist";
+import { programs } from "./files/dataFile";
 const schedules = [
   "Full Time (3 Months)",
   "Evenings Only (6 Months)",
